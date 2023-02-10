@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 30px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  gap: 40px;
+}
+
+li{
+  list-style: none;
+  font-size: 16px;
+  font-family: 'playfair display' serif ;
+  cursor: pointer;
+}
+
+main{
+  height: 1000px;
+  background-image: url(https://static.wixstatic.com/media/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg/v1/fill/w_1856,h_951,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg);
+  margin: 0px 65px;
+  
+  background-size: cover;
+}
+
+.intro-box{
+  text-align: center;
+  position: relative;
+  top: 250px;
+  text-align: start;
+  left: 300px;
+}
+
+.intro-box h1{
+  font-size: 70px;
+  color: white;
+  
+
+}
+
+.intro-box p{
+  font-size: 20px;
+  color: white;
+  letter-spacing: 10px;
+  margin-top: 50px;
+  background: transparent;
+  
+}
+
+
+
+
+.icon-box{
+display: flex;
+
+gap: 15px;
+justify-content: end;
+cursor: pointer;
+
+}
+
+i{
+  font-size: 30px;
+}
+
+footer p{
+  text-align: end;
+  margin: 30px 0px;
+  text-align: start;
+}
+
