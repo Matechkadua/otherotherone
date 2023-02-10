@@ -1,83 +1,115 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
-header{
-  position: sticky;
-  top: 0;
-  background-color: white;
-  padding: 30px;
-}
-
-nav{
-  display: flex;
-  justify-content: space-between;
-}
-
-ul{
-  display: flex;
-  gap: 40px;
-}
-
-li{
-  list-style: none;
-  font-size: 16px;
-  font-family: 'playfair display' serif ;
-  cursor: pointer;
-}
-
-main{
-  height: 1000px;
-  background-image: url(https://static.wixstatic.com/media/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg/v1/fill/w_1856,h_951,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg);
-  margin: 0px 65px;
-  
-  background-size: cover;
-}
-
-.intro-box{
-  text-align: center;
+/* button{
+  padding: 10px 70px;
+  background-color: black;
+  border-radius: 15px;
+  color: rgb(254, 254, 254);
+  border: none;
   position: relative;
-  top: 250px;
-  text-align: start;
-  left: 300px;
-}
-
-.intro-box h1{
-  font-size: 70px;
-  color: white;
-  
-
-}
-
-.intro-box p{
-  font-size: 20px;
-  color: white;
-  letter-spacing: 10px;
-  margin-top: 50px;
-  background: transparent;
+  transition: 0.5s;
   
 }
 
-
-
-
-.icon-box{
-display: flex;
-
-gap: 15px;
-justify-content: end;
-cursor: pointer;
+button:hover{
+  background-color: rgb(59, 20, 52);
+  transition: 0.5s;
+  cursor: pointer;
 
 }
 
-i{
-  font-size: 30px;
+
+button::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: black;
+  width: 90%;
+  top: 50px;
+  left: 7px;
+  transition: 0.5s;
 }
 
-footer p{
-  text-align: end;
-  margin: 30px 0px;
-  text-align: start;
+
+button:hover::after{
+  width: 0%;
+  transition: 0.5s;
+} */
+
+
+button{
+    padding: 9px 60px;
+    background-color: rgb(194, 33, 33);
+    border-radius: 50px;
+    position: relative;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    font-size: 90px;
+    
 }
 
+button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+    background-color: rgb(9, 11, 121);
+    border-radius: 15px;
+    top: 0px;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+button:hover::after{
+    width: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+a{
+  position: relative;
+  color: white;
+  z-index: 999;
+  text-decoration: none;
+}
+
+.btn{
+  padding: 9px 60px;
+  background-color: rgb(194, 33, 33);
+  border-radius: 50px;
+  position: relative;
+  color: white;
+  border: none;
+  transition: 0.5s;
+  font-size: 90px;
+}
+
+
+.btn:hover{
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn::after{
+  content: "";
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  height: 100%;
+  background-color: rgb(9, 11, 121);
+  border-radius: 15px;
+  top: 0px;
+  transition: 0.5s;
+  z-index: 100;
+}
+
+.btn:hover::after{
+  width: 100%;
+  left: 0;
+  transition: 0.5s;
+}
